@@ -39,6 +39,14 @@
               {% render_field form.cpf class+="form-control" %}
             </div>
 
+	    <!-- Email -->
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">E-mail</span>
+              </div>
+              {% render_field form.email class+="form-control" %}
+            </div>
+
             <hr />
             <div class="text-right">
               <a href="{% url 'website:lista_clientes' %}" class="btn btn-outline-primary">Voltar</a>
