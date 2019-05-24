@@ -9,7 +9,7 @@ Alunos: Osmar Fagundes; Pedro Henrique; Marco Aurélio
 Para instalar as dependências do projeto, executar:
 
 ```bash
-python --version
+python --version && python3 --version
 ```
 
 ```bash
